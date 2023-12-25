@@ -1,0 +1,23 @@
+.n1 {
+    font-size: 28px;
+    display: block;
+    text-align: center;
+    margin: 240px auto;
+    margin-bottom: 50px;
+    color: #000028;
+}
+
+.n1 span {
+    font-size: 28px;
+    text-align: center;
+    color: #000028;
+}
+
+.n2 {
+    color: #848494;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    margin: 50px auto;
+    text-align: center;
+}

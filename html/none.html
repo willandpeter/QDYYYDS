@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>没有相关视频</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/dianying.css" />
+    <link rel="stylesheet" href="../css/none.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="header">
+        <div class="container">
+            <!-- logo -->
+            <div class="site-logo">
+                <a href="#">
+                    <img src="../img/index/tiger.png" alt="Logo" />
+                </a>
+            </div>
+            <!-- 首页导航 -->
+            <div class="site-list">
+                <ul class="clearfix">
+                    <li>
+                        <a href="../index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <font color="coral"><b>电影</b></font>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 登入/注册 -->
+            <div class="login">
+                <a href="dengru.html">
+                    <img src="../img/index/yonghu3.png" alt="Login" />
+                </a>
+            </div>
+            <!-- 搜索框 -->
+            <div class="site-search">
+                <form action="">
+                    <input class="search-text" type="text" placeholder="请输入关键字" />
+                    <input class="submit" type="submit" value="搜索" />
+                </form>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="n1">抱歉，没有找到“ <span></span> ”的相关视频</div>
+
+    <div class="n2">老虎影视建议您：缩短搜索词 或 更换搜索词</div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var urlParams = new URLSearchParams(window.location.search);
+            var searchQuery = urlParams.get('q');
+
+            // 设置span标签的内容为搜索的文字
+            document.querySelector('span').textContent = searchQuery;
+        });
+    </script>
+
+
+</body>
+
+</html>

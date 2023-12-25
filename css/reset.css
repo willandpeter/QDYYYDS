@@ -1,0 +1,15 @@
+body,p,ul{
+	margin: 0;
+	padding: 0;
+}
+input{
+	border: none;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+*{
+	text-decoration: none;
+	list-style: none;
+}

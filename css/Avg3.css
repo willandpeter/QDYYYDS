@@ -1,0 +1,300 @@
+body {
+    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei,
+        Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+    color: black;
+}
+
+.topber {
+    width: 100%;
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* --------导航栏------------ */
+
+/* 导航栏左侧 */
+.header {
+    /* 黑条 */
+    height: 80px;
+    background-color: black;
+    z-index: 99;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header .site-logo {
+    /* logo盒子 */
+    float: left;
+    width: 178px;
+    margin-top: 8px;
+}
+
+.header .site-logo img {
+    /* logo图片 */
+    float: left;
+    width: 170px;
+    margin-left: 10px;
+}
+
+.header .site-logo a {
+    display: block;
+    width: 56px;
+    height: 56px;
+}
+
+.header .site-list {
+    /* 首页字体 */
+    float: left;
+    width: 400px;
+    height: 70px;
+    padding: 10px 0 0 31px;
+    font-size: 21px;
+}
+
+.header .site-list ul li {
+    /* 列表排列 */
+    float: left;
+}
+
+.header .site-list ul li a {
+    /* 首页字体 */
+    display: block;
+    padding: 15px 10px 18px;
+    color: #FFFFFF;
+}
+
+.header .site-list ul li a:hover {
+    /* 鼠标悬浮 */
+    color: coral;
+}
+
+
+/* 搜索框 */
+.header .site-search {
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+    /* background-color: #777; */
+}
+
+.header .site-search from {
+    position: relative;
+    width: 296px;
+    height: 50px;
+}
+
+.search-text {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #E0E0E0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 14px;
+    padding: 0 10px;
+    float: left;
+    background-color: lightgray;
+}
+
+.submit {
+    /* 登入按钮 */
+    float: left;
+    width: 50px;
+    height: 31px;
+    margin-left: -1px;
+    border: 0px solid #E0E0E0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.login {
+    /* 登入 */
+    float: right;
+    margin: 24px 20px 0 0;
+    color: #FF7F50;
+}
+
+.login img {
+    width: 35px;
+}
+
+.login a {
+    color: #F6F6F6;
+}
+
+.login a:hover {
+    color: #FF7F50;
+}
+
+/* --------导航栏end--------- */
+
+
+/* --------主页内容--------- */
+.content {
+    height: 1200px;
+    /* background-color: #87CEEB; */
+    /* 背景色定位测试框 */
+}
+
+
+/* tab菜单 */
+.jianjie {
+    width: 1000px;
+    height: 387px;
+    background-color: #F2F2F2;
+}
+
+.jianjie-left {
+    float: left;
+    width: 300px;
+}
+
+.jianjie-right {
+    /* 	width: 500px;
+	height: 200px; */
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.jianjie-right hr {
+    /* 夏目分割线 */
+    width: 500px;
+    height: 1px;
+    border: none;
+    border-top: 1px dashed coral;
+}
+
+.jianjie-right font {
+    color: red;
+}
+
+.jianjie-zhengwen {
+    padding: 0px 10px 5px 10px;
+    background-color: #F2F2F2;
+}
+
+.jianjie-zhengwen h2 {
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+
+.jianjie-bofang {
+    height: 160px;
+    background-color: #F2F2F2;
+}
+
+.jianjie-bofang h2 {
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+
+.jianjie-a li {
+    float: left;
+    padding: 10px 50px;
+    /* display: flex;  */
+    text-align: center;
+    background-color: #A2A2A2;
+    margin-left: 30px;
+}
+
+.jianjie-a a {
+    color: #000000;
+}
+
+.jianjie-a li:hover {
+    background-color: coral;
+}
+
+
+/* 相关推荐 */
+.tabdown {
+    height: 20px;
+    /* background-color: #FF7F50; */
+    margin-top: 50px;
+}
+
+.tabdown img {
+    width: 190px;
+    border-radius: 5px;
+    /* 方块圆角 */
+}
+
+.tabdown li {
+    float: left;
+    height: 290px;
+    margin-right: 10px;
+}
+
+.tabdown a {
+    font-size: 10px;
+    color: #000000;
+}
+
+.tabdown a:hover {
+    color: coral;
+}
+
+
+
+/* --------主页内容end--------- */
+
+/* --------- 底部栏 ---------- */
+.footer {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background: #F2F2F2;
+    color: #A2A2A2;
+    margin-top: 4px;
+    /* border-top: 1px solid #F2F2F2; */
+}
+
+.footer-liebiao {
+    padding-top: 15px;
+    height: 100px;
+    width: 1000px;
+}
+
+.neir h4 {
+    color: #666666;
+}
+
+.footer-liebiao td {
+    width: 100px;
+}
+
+.guanyu {
+    float: left;
+    width: 370px;
+    height: 10px;
+    margin: 0 0px 0 50px;
+}
+
+.xieyi {
+    float: left;
+    width: 370px;
+    margin: 0 0px 0 150px;
+}
+
+.footer-infro {
+    margin-top: 3px;
+    font-family: '宋体';
+    /* padding-top: 30px; */
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* -------- 底部栏end --------- */
